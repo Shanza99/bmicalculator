@@ -5,7 +5,9 @@ void main() =>runApp(BMICalculator());
 class BMICalculator extends StatelessWidget {
   const BMICalculator({super.key});
 
-
+enum gender{
+  
+}
   @override
   Widget build(BuildContext context) {
    return MaterialApp(
