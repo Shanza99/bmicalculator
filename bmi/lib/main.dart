@@ -17,3 +17,7 @@ class BMICalculator extends StatelessWidget {
     );
   }
 }
+
+class InputPage extends StatefulWidget{
+  
+}
