@@ -20,4 +20,18 @@ class BMICalculator extends StatelessWidget {
 
 class InputPage extends StatefulWidget{
   
+Color maleColor = deActiveColor; Color feMaleColor = deActiveColor; void updateColor(int gender) {
+if (gender
+==
+1) {
+maleColor = activeColor;
+femaleColor = deActiveColor;
 }
+3
+if (gender
+==
+2) {
+}
+femaleColor = activeColor;
+maleColor = deActiveColor;
+}}
